@@ -26,8 +26,8 @@ public class Problem {
 	 */
 	public String solve(int n) {
 		
-		String[][] resultArr = new String[n][n];
-		getOutterArray(n, resultArr);
+		String[][] resultArr = new String[n][n];	// 입력받은 n으로 nxn의 2차배열을 생성한다. 
+		getOutterArray(n, resultArr);				// 이 2차배열을 구성한다. 
 		
 		return toString(resultArr);
 	}
