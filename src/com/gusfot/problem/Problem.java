@@ -7,7 +7,7 @@ package com.gusfot.problem;
  */
 public class Problem {
 		
-	private static final String ASTERIK = "*";
+	private static final String ASTERISK = "*";
 	private static final String SPACE = " ";
 
 	public static void main(String[] args) {
@@ -83,7 +83,7 @@ public class Problem {
 	 * @return
 	 */
 	private String getString(boolean isFirst, boolean isLast, boolean isEqual) {
-		return isLast||isFirst||isEqual ? ASTERIK : SPACE;
+		return isLast||isFirst||isEqual ? ASTERISK : SPACE;
 	}
 
 	/**
